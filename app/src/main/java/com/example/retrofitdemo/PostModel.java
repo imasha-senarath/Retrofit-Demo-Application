@@ -19,7 +19,11 @@ public class PostModel {
         this.text = text;
     }
 
-    public int getUserId() {
+    public PostModel(String text) {
+        this.text = text;
+    }
+
+    public Integer getUserId() {
         return userId;
     }
 
