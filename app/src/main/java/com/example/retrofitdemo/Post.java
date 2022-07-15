@@ -2,7 +2,7 @@ package com.example.retrofitdemo;
 
 import com.google.gson.annotations.SerializedName;
 
-public class PostModel {
+public class Post {
 
     private int userId;
 
@@ -13,13 +13,13 @@ public class PostModel {
     @SerializedName("body")
     private String text;
 
-    public PostModel(int userId, String title, String text) {
+    public Post(int userId, String title, String text) {
         this.userId = userId;
         this.title = title;
         this.text = text;
     }
 
-    public PostModel(String text) {
+    public Post(String text) {
         this.text = text;
     }
 

@@ -2,7 +2,7 @@ package com.example.retrofitdemo;
 
 import com.google.gson.annotations.SerializedName;
 
-public class CommentModel {
+public class Comment {
     private int postId;
 
     private int id;
